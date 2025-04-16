@@ -1,0 +1,19 @@
+{
+  "questionId": "578",
+  "questionFrontendId": "578",
+  "title": "Get Highest Answer Rate Question",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "{\"headers\": {\"SurveyLog\": [\"id\", \"action\", \"question_id\", \"answer_id\", \"q_num\", \"timestamp\"]},\"rows\": {\"SurveyLog\": [[5, \"show\", 285, null, 1, 123], [5, \"answer\", 285, 124124, 1, 124], [5, \"show\", 369, null, 2, 125], [5, \"skip\", 369, null, 2, 126]]}}",
+  "exampleTestcaseList": [
+    "{\"headers\": {\"SurveyLog\": [\"id\", \"action\", \"question_id\", \"answer_id\", \"q_num\", \"timestamp\"]},\"rows\": {\"SurveyLog\": [[5, \"show\", 285, null, 1, 123], [5, \"answer\", 285, 124124, 1, 124], [5, \"show\", 369, null, 2, 125], [5, \"skip\", 369, null, 2, 126]]}}"
+  ],
+  "sampleTestCase": "{\"headers\": {\"SurveyLog\": [\"id\", \"action\", \"question_id\", \"answer_id\", \"q_num\", \"timestamp\"]},\"rows\": {\"SurveyLog\": [[5, \"show\", 285, null, 1, 123], [5, \"answer\", 285, 124124, 1, 124], [5, \"show\", 369, null, 2, 125], [5, \"skip\", 369, null, 2, 126]]}}",
+  "metaData": "{\"mysql\": [\"Create table If Not Exists SurveyLog (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"], \"mssql\": [\"Create table SurveyLog (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"], \"oraclesql\": [\"Create table SurveyLog (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"], \"database\": true, \"name\": \"get_the_question\", \"pythondata\": [\"SurveyLog = pd.DataFrame([], columns=['id', 'action', 'question_id', 'answer_id', 'q_num', 'timestamp']).astype({'id':'Int64', 'action':'object', 'question_id':'Int64', 'answer_id':'Int64', 'q_num':'Int64', 'timestamp':'Int64'})\"], \"postgresql\": [\"\\nCreate table If Not Exists SurveyLog (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"], \"database_schema\": {\"SurveyLog\": {\"id\": \"INT\", \"action\": \"VARCHAR(255)\", \"question_id\": \"INT\", \"answer_id\": \"INT\", \"q_num\": \"INT\", \"timestamp\": \"INT\"}}}",
+  "codeSnippets": null,
+  "hints": [
+    "Try to find all question ids by group",
+    "Try to find each group answer number and show number.",
+    "Rank all the rates (answer/(answer+show)) and return the max one"
+  ]
+}

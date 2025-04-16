@@ -1,0 +1,16 @@
+{
+  "questionId": "285",
+  "questionFrontendId": "285",
+  "title": "Inorder Successor in BST",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[2,1,3]\n1\n[5,3,6,2,4,null,null,1]\n6",
+  "exampleTestcaseList": [
+    "[2,1,3]\n1",
+    "[5,3,6,2,4,null,null,1]\n6"
+  ],
+  "sampleTestCase": "[2,1,3]\n1",
+  "metaData": "{\n  \"name\": \"inorderSuccessor\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"name\": \"p\",\n      \"type\": \"integer\",\n      \"dealloc\": false,\n      \"deserialize\": false\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\",\n    \"serializevalue\": true\n  },\n  \"manual\": true\n}",
+  "codeSnippets": null,
+  "hints": []
+}

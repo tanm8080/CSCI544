@@ -1,0 +1,16 @@
+{
+  "questionId": "531",
+  "questionFrontendId": "531",
+  "title": "Lonely Pixel I",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[[\"W\",\"W\",\"B\"],[\"W\",\"B\",\"W\"],[\"B\",\"W\",\"W\"]]\n[[\"B\",\"B\",\"B\"],[\"B\",\"B\",\"W\"],[\"B\",\"B\",\"B\"]]",
+  "exampleTestcaseList": [
+    "[[\"W\",\"W\",\"B\"],[\"W\",\"B\",\"W\"],[\"B\",\"W\",\"W\"]]",
+    "[[\"B\",\"B\",\"B\"],[\"B\",\"B\",\"W\"],[\"B\",\"B\",\"B\"]]"
+  ],
+  "sampleTestCase": "[[\"W\",\"W\",\"B\"],[\"W\",\"B\",\"W\"],[\"B\",\"W\",\"W\"]]",
+  "metaData": "{\r\n  \"name\": \"findLonelyPixel\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"picture\",\r\n      \"type\": \"character[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+  "codeSnippets": null,
+  "hints": []
+}

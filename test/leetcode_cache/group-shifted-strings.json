@@ -1,0 +1,16 @@
+{
+  "questionId": "249",
+  "questionFrontendId": "249",
+  "title": "Group Shifted Strings",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"abc\",\"bcd\",\"acef\",\"xyz\",\"az\",\"ba\",\"a\",\"z\"]\n[\"a\"]",
+  "exampleTestcaseList": [
+    "[\"abc\",\"bcd\",\"acef\",\"xyz\",\"az\",\"ba\",\"a\",\"z\"]",
+    "[\"a\"]"
+  ],
+  "sampleTestCase": "[\"abc\",\"bcd\",\"acef\",\"xyz\",\"az\",\"ba\",\"a\",\"z\"]",
+  "metaData": "{\r\n  \"name\": \"groupStrings\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"strings\",\r\n      \"type\": \"string[]\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<string>>\",\r\n    \"dealloc\": true\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "293",
+  "questionFrontendId": "293",
+  "title": "Flip Game",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "\"++++\"\n\"+\"",
+  "exampleTestcaseList": [
+    "\"++++\"",
+    "\"+\""
+  ],
+  "sampleTestCase": "\"++++\"",
+  "metaData": "{\n  \"name\": \"generatePossibleNextMoves\",\n  \"params\": [\n    {\n      \"name\": \"currentState\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\",\n    \"dealloc\": true\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

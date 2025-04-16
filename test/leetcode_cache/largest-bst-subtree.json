@@ -1,0 +1,18 @@
+{
+  "questionId": "333",
+  "questionFrontendId": "333",
+  "title": "Largest BST Subtree",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[10,5,15,1,8,null,7]\n[4,2,7,2,3,5,null,2,null,null,null,null,null,1]",
+  "exampleTestcaseList": [
+    "[10,5,15,1,8,null,7]",
+    "[4,2,7,2,3,5,null,2,null,null,null,null,null,1]"
+  ],
+  "sampleTestCase": "[10,5,15,1,8,null,7]",
+  "metaData": "{\r\n  \"name\": \"largestBSTSubtree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": [
+    "You can recursively use algorithm similar to <a href=\"https://leetcode.com/problems/validate-binary-search-tree/\">98. Validate Binary Search Tree</a> at each node of the tree, which will result in O(nlogn) time complexity."
+  ]
+}

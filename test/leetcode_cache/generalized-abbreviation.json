@@ -1,0 +1,16 @@
+{
+  "questionId": "320",
+  "questionFrontendId": "320",
+  "title": "Generalized Abbreviation",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"word\"\n\"a\"",
+  "exampleTestcaseList": [
+    "\"word\"",
+    "\"a\""
+  ],
+  "sampleTestCase": "\"word\"",
+  "metaData": "{\r\n  \"name\": \"generateAbbreviations\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"word\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

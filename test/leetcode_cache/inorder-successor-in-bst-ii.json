@@ -1,0 +1,16 @@
+{
+  "questionId": "509",
+  "questionFrontendId": "510",
+  "title": "Inorder Successor in BST II",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[2,1,3]\n1\n[5,3,6,2,4,null,null,1]\n6",
+  "exampleTestcaseList": [
+    "[2,1,3]\n1",
+    "[5,3,6,2,4,null,null,1]\n6"
+  ],
+  "sampleTestCase": "[2,1,3]\n1",
+  "metaData": "{\n  \"name\": \"inorderSuccessor\",\n  \"params\": [\n    {\n      \"name\": \"tree\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"name\": \"node\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"python3\",\n    \"kotlin\",\n    \"ruby\",\n    \"scala\",\n    \"c\",\n    \"golang\",\n    \"swift\",\n    \"php\",\n    \"typescript\"\n  ],\n  \"manual\": true, \"typescriptCustomType\" : \"class _Node {\\n    val: number\\n    left: _Node | null\\n    right: _Node | null\\n    parent: _Node | null\\n    \\n    constructor(v: number) {\\n        this.val = v;\\n        this.left = null;\\n        this.right = null;\\n        this.parent = null;\\n    }\\n}\\n\"\n\n}",
+  "codeSnippets": null,
+  "hints": []
+}

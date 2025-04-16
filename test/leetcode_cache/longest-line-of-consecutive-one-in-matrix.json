@@ -1,0 +1,21 @@
+{
+  "questionId": "562",
+  "questionFrontendId": "562",
+  "title": "Longest Line of Consecutive One in Matrix",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[[0,1,1,0],[0,1,1,0],[0,0,0,1]]\n[[1,1,1,1],[0,1,1,0],[0,0,0,1]]",
+  "exampleTestcaseList": [
+    "[[0,1,1,0],[0,1,1,0],[0,0,0,1]]",
+    "[[1,1,1,1],[0,1,1,0],[0,0,0,1]]"
+  ],
+  "sampleTestCase": "[[0,1,1,0],[0,1,1,0],[0,0,0,1]]",
+  "metaData": "{\n  \"name\": \"longestLine\",\n  \"params\": [\n    {\n      \"name\": \"mat\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+  "codeSnippets": null,
+  "hints": [
+    "One solution is to count ones in each direction separately and find the longest line. Don't you think  it will take too much lines of code?",
+    "Is it possible to use some extra space to make the solution simple?",
+    "Can we use dynamic programming to make use of intermediate results?",
+    "Think of a 3D array which can be used to store the longest line obtained so far for each direction."
+  ]
+}

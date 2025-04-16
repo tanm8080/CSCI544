@@ -1,0 +1,20 @@
+{
+  "questionId": "356",
+  "questionFrontendId": "356",
+  "title": "Line Reflection",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[[1,1],[-1,1]]\n[[1,1],[-1,-1]]",
+  "exampleTestcaseList": [
+    "[[1,1],[-1,1]]",
+    "[[1,1],[-1,-1]]"
+  ],
+  "sampleTestCase": "[[1,1],[-1,1]]",
+  "metaData": "{\r\n  \"name\": \"isReflected\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"points\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": [
+    "Find the smallest and largest x-value for all points.",
+    "If there is a line then it should be at y = (minX + maxX) / 2.",
+    "For each point, make sure that it has a reflected point in the opposite side."
+  ]
+}
