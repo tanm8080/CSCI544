@@ -1,0 +1,16 @@
+{
+  "questionId": "302",
+  "questionFrontendId": "302",
+  "title": "Smallest Rectangle Enclosing Black Pixels",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[[\"0\",\"0\",\"1\",\"0\"],[\"0\",\"1\",\"1\",\"0\"],[\"0\",\"1\",\"0\",\"0\"]]\n0\n2\n[[\"1\"]]\n0\n0",
+  "exampleTestcaseList": [
+    "[[\"0\",\"0\",\"1\",\"0\"],[\"0\",\"1\",\"1\",\"0\"],[\"0\",\"1\",\"0\",\"0\"]]\n0\n2",
+    "[[\"1\"]]\n0\n0"
+  ],
+  "sampleTestCase": "[[\"0\",\"0\",\"1\",\"0\"],[\"0\",\"1\",\"1\",\"0\"],[\"0\",\"1\",\"0\",\"0\"]]\n0\n2",
+  "metaData": "{\r\n  \"name\": \"minArea\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"image\",\r\n      \"type\": \"character[][]\"\r\n    },\r\n    {\r\n      \"name\": \"x\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"y\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

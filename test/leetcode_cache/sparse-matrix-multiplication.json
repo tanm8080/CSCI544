@@ -1,0 +1,16 @@
+{
+  "questionId": "311",
+  "questionFrontendId": "311",
+  "title": "Sparse Matrix Multiplication",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[[1,0,0],[-1,0,3]]\n[[7,0,0],[0,0,0],[0,0,1]]\n[[0]]\n[[0]]",
+  "exampleTestcaseList": [
+    "[[1,0,0],[-1,0,3]]\n[[7,0,0],[0,0,0],[0,0,1]]",
+    "[[0]]\n[[0]]"
+  ],
+  "sampleTestCase": "[[1,0,0],[-1,0,3]]\n[[7,0,0],[0,0,0],[0,0,1]]",
+  "metaData": "{\n  \"name\": \"multiply\",\n  \"params\": [\n    {\n      \"name\": \"mat1\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"name\": \"mat2\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[][]\",\n    \"rowsize\": \"size_1\",\n    \"colsize\": \"*col_size_2\",\n    \"dealloc\": true\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

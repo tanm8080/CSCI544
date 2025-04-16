@@ -1,0 +1,16 @@
+{
+  "questionId": "243",
+  "questionFrontendId": "243",
+  "title": "Shortest Word Distance",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "[\"practice\", \"makes\", \"perfect\", \"coding\", \"makes\"]\n\"coding\"\n\"practice\"\n[\"practice\", \"makes\", \"perfect\", \"coding\", \"makes\"]\n\"makes\"\n\"coding\"",
+  "exampleTestcaseList": [
+    "[\"practice\", \"makes\", \"perfect\", \"coding\", \"makes\"]\n\"coding\"\n\"practice\"",
+    "[\"practice\", \"makes\", \"perfect\", \"coding\", \"makes\"]\n\"makes\"\n\"coding\""
+  ],
+  "sampleTestCase": "[\"practice\", \"makes\", \"perfect\", \"coding\", \"makes\"]\n\"coding\"\n\"practice\"",
+  "metaData": "{\n  \"name\": \"shortestDistance\",\n  \"params\": [\n    {\n      \"name\": \"wordsDict\",\n      \"type\": \"string[]\"\n    },\n    {\n      \"name\": \"word1\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"word2\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

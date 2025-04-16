@@ -1,0 +1,16 @@
+{
+  "questionId": "555",
+  "questionFrontendId": "555",
+  "title": "Split Concatenated Strings",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"abc\",\"xyz\"]\n[\"abc\"]",
+  "exampleTestcaseList": [
+    "[\"abc\",\"xyz\"]",
+    "[\"abc\"]"
+  ],
+  "sampleTestCase": "[\"abc\",\"xyz\"]",
+  "metaData": "{\r\n  \"name\": \"splitLoopedString\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"strs\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n",
+  "codeSnippets": null,
+  "hints": []
+}

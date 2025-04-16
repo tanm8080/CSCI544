@@ -1,0 +1,16 @@
+{
+  "questionId": "865",
+  "questionFrontendId": "489",
+  "title": "Robot Room Cleaner",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[[1,1,1,1,1,0,1,1],[1,1,1,1,1,0,1,1],[1,0,1,1,1,1,1,1],[0,0,0,1,0,0,0,0],[1,1,1,1,1,1,1,1]]\n1\n3\n[[1]]\n0\n0",
+  "exampleTestcaseList": [
+    "[[1,1,1,1,1,0,1,1],[1,1,1,1,1,0,1,1],[1,0,1,1,1,1,1,1],[0,0,0,1,0,0,0,0],[1,1,1,1,1,1,1,1]]\n1\n3",
+    "[[1]]\n0\n0"
+  ],
+  "sampleTestCase": "[[1,1,1,1,1,0,1,1],[1,1,1,1,1,0,1,1],[1,0,1,1,1,1,1,1],[0,0,0,1,0,0,0,0],[1,1,1,1,1,1,1,1]]\n1\n3",
+  "metaData": "{\n  \"name\": \"cleanRoom\",\n  \"params\": [\n    {\n      \"name\": \"room\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"name\": \"row\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"col\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"void\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"golang\",\n    \"python3\",\n    \"kotlin\",\n    \"ruby\",\n    \"scala\",\n    \"php\",\n    \"swift\",\n    \"typescript\"\n  ],\n  \"manual\": true,\n  \"typescriptCustomType\" : \"class Robot {\\n    room: number[][];\\n    row: number;\\n    col: number;\\n    direction: number;\\n    needClean: number;\\n    dmap: number[][] = [[-1,0],[0,1],[1,0],[0,-1]];\\n    constructor(vec2d: number[][], r: number, c: number) {\\n        this.room = vec2d;\\n        this.row = r;\\n        this.col = c;\\n        this.direction = 0;\\n        this.needClean = 0;\\n        for (var i = 0; i < this.room.length; i++) {\\n            for (var j = 0; j < this.room[0].length; j++) {\\n                if (this.room[i][j] == 1) {\\n                    this.needClean++;\\n                }\\n            }\\n        }\\n    }\\n\\n    move(): boolean {\\n        var r = this.row + this.dmap[this.direction][0];\\n        var c = this.col + this.dmap[this.direction][1];\\n        if (r < 0 || c < 0 || r >= this.room.length || c >= this.room[0].length || this.room[r][c] == 0) {\\n            return false;\\n        }\\n        this.row = r;\\n        this.col = c;\\n        return true;\\n    }\\n\\n    turnRight() {\\n        this.direction = (this.direction + 1) % 4;\\n    }\\n        \\n    turnLeft() {\\n        this.direction = (this.direction + 3) % 4;\\n    }\\n    \\n    clean() {\\n        if (this.room[this.row][this.col] == 1) {\\n          this.room[this.row][this.col] = 2;   // mark as cleaned\\n          this.needClean--;\\n        }\\n    }\\n};\"\n}",
+  "codeSnippets": null,
+  "hints": []
+}

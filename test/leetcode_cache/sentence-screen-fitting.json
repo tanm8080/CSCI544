@@ -1,0 +1,17 @@
+{
+  "questionId": "418",
+  "questionFrontendId": "418",
+  "title": "Sentence Screen Fitting",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"hello\",\"world\"]\n2\n8\n[\"a\", \"bcd\", \"e\"]\n3\n6\n[\"i\",\"had\",\"apple\",\"pie\"]\n4\n5",
+  "exampleTestcaseList": [
+    "[\"hello\",\"world\"]\n2\n8",
+    "[\"a\", \"bcd\", \"e\"]\n3\n6",
+    "[\"i\",\"had\",\"apple\",\"pie\"]\n4\n5"
+  ],
+  "sampleTestCase": "[\"hello\",\"world\"]\n2\n8",
+  "metaData": "{ \r\n  \"name\": \"wordsTyping\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"sentence\",\r\n      \"type\": \"string[]\"\r\n    },\r\n    { \r\n      \"name\": \"rows\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n        \"name\": \"cols\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

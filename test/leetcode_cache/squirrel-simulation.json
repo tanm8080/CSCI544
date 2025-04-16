@@ -1,0 +1,22 @@
+{
+  "questionId": "573",
+  "questionFrontendId": "573",
+  "title": "Squirrel Simulation",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "5\n7\n[2,2]\n[4,4]\n[[3,0], [2,5]]\n1\n3\n[0,1]\n[0,0]\n[[0,2]]",
+  "exampleTestcaseList": [
+    "5\n7\n[2,2]\n[4,4]\n[[3,0], [2,5]]",
+    "1\n3\n[0,1]\n[0,0]\n[[0,2]]"
+  ],
+  "sampleTestCase": "5\n7\n[2,2]\n[4,4]\n[[3,0], [2,5]]",
+  "metaData": "{\r\n  \"name\": \"minDistance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"height\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"width\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"tree\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"squirrel\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"nuts\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+  "codeSnippets": null,
+  "hints": [
+    "Will Brute force solution works here? What will be its complexity?",
+    "Brute force definitely won't work here. Think of some simple solution. Take some example and make some observations.",
+    "Will order of nuts traversed by squirrel is important or only first nut traversed by squirrel is important?",
+    "Are there some paths which squirrel have to cover in any case? If yes, what are they?",
+    "Did you notice only first nut traversed by squirrel matters? Obviously squirrel will choose first nut which will result in minimum distance."
+  ]
+}

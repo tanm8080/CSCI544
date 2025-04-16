@@ -1,0 +1,16 @@
+{
+  "questionId": "186",
+  "questionFrontendId": "186",
+  "title": "Reverse Words in a String II",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"t\",\"h\",\"e\",\" \",\"s\",\"k\",\"y\",\" \",\"i\",\"s\",\" \",\"b\",\"l\",\"u\",\"e\"]\n[\"a\"]",
+  "exampleTestcaseList": [
+    "[\"t\",\"h\",\"e\",\" \",\"s\",\"k\",\"y\",\" \",\"i\",\"s\",\" \",\"b\",\"l\",\"u\",\"e\"]",
+    "[\"a\"]"
+  ],
+  "sampleTestCase": "[\"t\",\"h\",\"e\",\" \",\"s\",\"k\",\"y\",\" \",\"i\",\"s\",\" \",\"b\",\"l\",\"u\",\"e\"]",
+  "metaData": "{\n  \"name\": \"reverseWords\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"character[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"void\"\n  },\n  \"output\": {\n    \"paramindex\": 0\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

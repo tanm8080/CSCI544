@@ -1,0 +1,15 @@
+{
+  "questionId": "244",
+  "questionFrontendId": "244",
+  "title": "Shortest Word Distance II",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"WordDistance\",\"shortest\",\"shortest\"]\n[[[\"practice\",\"makes\",\"perfect\",\"coding\",\"makes\"]],[\"coding\",\"practice\"],[\"makes\",\"coding\"]]",
+  "exampleTestcaseList": [
+    "[\"WordDistance\",\"shortest\",\"shortest\"]\n[[[\"practice\",\"makes\",\"perfect\",\"coding\",\"makes\"]],[\"coding\",\"practice\"],[\"makes\",\"coding\"]]"
+  ],
+  "sampleTestCase": "[\"WordDistance\",\"shortest\",\"shortest\"]\n[[[\"practice\",\"makes\",\"perfect\",\"coding\",\"makes\"]],[\"coding\",\"practice\"],[\"makes\",\"coding\"]]",
+  "metaData": "{\n  \"classname\": \"WordDistance\",\n  \"maxbytesperline\": 300000,\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"string[]\",\n        \"name\": \"wordsDict\"\n      },\n      {\n        \"type\": \"integer\",\n        \"name\": \"wordsSize\",\n        \"lang\": \"c\",\n        \"value\": \"size_1\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"name\": \"shortest\",\n      \"params\": [\n        {\n          \"type\": \"string\",\n          \"name\": \"word1\"\n        },\n        {\n          \"type\": \"string\",\n          \"name\": \"word2\"\n        }\n      ],\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"systemdesign\": true,\n  \"params\": [\n    {\n      \"name\": \"inputs\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"inputs\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<String>\",\n    \"dealloc\": true\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

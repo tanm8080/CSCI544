@@ -1,0 +1,17 @@
+{
+  "questionId": "317",
+  "questionFrontendId": "317",
+  "title": "Shortest Distance from All Buildings",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[[1,0,2,0,1],[0,0,0,0,0],[0,0,1,0,0]]\n[[1,0]]\n[[1]]",
+  "exampleTestcaseList": [
+    "[[1,0,2,0,1],[0,0,0,0,0],[0,0,1,0,0]]",
+    "[[1,0]]",
+    "[[1]]"
+  ],
+  "sampleTestCase": "[[1,0,2,0,1],[0,0,0,0,0],[0,0,1,0,0]]",
+  "metaData": "{\r\n  \"name\": \"shortestDistance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

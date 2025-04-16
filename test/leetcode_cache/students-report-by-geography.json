@@ -1,0 +1,15 @@
+{
+  "questionId": "618",
+  "questionFrontendId": "618",
+  "title": "Students Report By Geography",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "{\"headers\":{\"Student\":[\"name\",\"continent\"]},\"rows\":{\"Student\":[[\"Jane\",\"America\"],[\"Pascal\",\"Europe\"],[\"Xi\",\"Asia\"],[\"Jack\",\"America\"]]}}",
+  "exampleTestcaseList": [
+    "{\"headers\":{\"Student\":[\"name\",\"continent\"]},\"rows\":{\"Student\":[[\"Jane\",\"America\"],[\"Pascal\",\"Europe\"],[\"Xi\",\"Asia\"],[\"Jack\",\"America\"]]}}"
+  ],
+  "sampleTestCase": "{\"headers\":{\"Student\":[\"name\",\"continent\"]},\"rows\":{\"Student\":[[\"Jane\",\"America\"],[\"Pascal\",\"Europe\"],[\"Xi\",\"Asia\"],[\"Jack\",\"America\"]]}}",
+  "metaData": "{\"mysql\": [\"Create table If Not Exists Student (name varchar(50), continent varchar(7))\"], \"mssql\": [\"Create table Student (name varchar(50), continent varchar(7))\"], \"oraclesql\": [\"Create table Student (name varchar(50), continent varchar(7))\"], \"database\": true, \"name\": \"geography_report\", \"pythondata\": [\"Student = pd.DataFrame([], columns=['name', 'continent']).astype({'name':'object', 'continent':'object'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Student (name varchar(50), continent varchar(7))\"], \"database_schema\": {\"Student\": {\"name\": \"VARCHAR(50)\", \"continent\": \"VARCHAR(7)\"}}}",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,18 @@
+{
+  "questionId": "247",
+  "questionFrontendId": "247",
+  "title": "Strobogrammatic Number II",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "2\n1",
+  "exampleTestcaseList": [
+    "2",
+    "1"
+  ],
+  "sampleTestCase": "2",
+  "metaData": "{\r\n  \"name\": \"findStrobogrammatic\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": [
+    "Try to use recursion and notice that it should recurse with <i>n</i> - 2 instead of <i>n</i> - 1."
+  ]
+}

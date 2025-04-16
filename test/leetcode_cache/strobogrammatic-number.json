@@ -1,0 +1,17 @@
+{
+  "questionId": "246",
+  "questionFrontendId": "246",
+  "title": "Strobogrammatic Number",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "\"69\"\n\"88\"\n\"962\"",
+  "exampleTestcaseList": [
+    "\"69\"",
+    "\"88\"",
+    "\"962\""
+  ],
+  "sampleTestCase": "\"69\"",
+  "metaData": "{\r\n  \"name\": \"isStrobogrammatic\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"num\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

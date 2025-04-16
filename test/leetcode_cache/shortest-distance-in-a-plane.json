@@ -1,0 +1,15 @@
+{
+  "questionId": "612",
+  "questionFrontendId": "612",
+  "title": "Shortest Distance in a Plane",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "{\"headers\":{\"Point2D\":[\"x\",\"y\"]},\"rows\":{\"Point2D\":[[-1,-1],[0,0],[-1,-2]]}}",
+  "exampleTestcaseList": [
+    "{\"headers\":{\"Point2D\":[\"x\",\"y\"]},\"rows\":{\"Point2D\":[[-1,-1],[0,0],[-1,-2]]}}"
+  ],
+  "sampleTestCase": "{\"headers\":{\"Point2D\":[\"x\",\"y\"]},\"rows\":{\"Point2D\":[[-1,-1],[0,0],[-1,-2]]}}",
+  "metaData": "{\"mysql\": [\"Create Table If Not Exists Point2D (x int not null, y int not null)\"], \"mssql\": [\"Create Table Point2D (x int not null, y int not null)\"], \"oraclesql\": [\"Create Table Point2D (x int not null, y int not null)\"], \"database\": true, \"name\": \"shortest_distance\", \"pythondata\": [\"Point2D = pd.DataFrame([], columns=['x', 'y']).astype({'x':'Int64', 'y':'Int64'})\"], \"postgresql\": [\"\\nCreate Table If Not Exists Point2D (x int not null, y int not null)\"], \"database_schema\": {\"Point2D\": {\"x\": \"INT\", \"y\": \"INT\"}}}",
+  "codeSnippets": null,
+  "hints": []
+}

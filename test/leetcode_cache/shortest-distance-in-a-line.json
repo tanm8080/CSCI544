@@ -1,0 +1,15 @@
+{
+  "questionId": "613",
+  "questionFrontendId": "613",
+  "title": "Shortest Distance in a Line",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "{\"headers\":{\"Point\":[\"x\"]},\"rows\":{\"Point\":[[-1],[0],[2]]}}",
+  "exampleTestcaseList": [
+    "{\"headers\":{\"Point\":[\"x\"]},\"rows\":{\"Point\":[[-1],[0],[2]]}}"
+  ],
+  "sampleTestCase": "{\"headers\":{\"Point\":[\"x\"]},\"rows\":{\"Point\":[[-1],[0],[2]]}}",
+  "metaData": "{\"mysql\": [\"Create Table If Not Exists Point (x int not null)\"], \"mssql\": [\"Create Table Point (x int not null)\"], \"oraclesql\": [\"Create Table Point (x int not null)\"], \"database\": true, \"name\": \"shortest_distance\", \"pythondata\": [\"Point = pd.DataFrame([], columns=['x']).astype({'x':'Int64'})\"], \"postgresql\": [\"Create Table If Not Exists Point (x int not null)\"], \"database_schema\": {\"Point\": {\"x\": \"INT\"}}}",
+  "codeSnippets": null,
+  "hints": []
+}

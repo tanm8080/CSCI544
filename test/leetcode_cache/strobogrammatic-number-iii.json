@@ -1,0 +1,16 @@
+{
+  "questionId": "248",
+  "questionFrontendId": "248",
+  "title": "Strobogrammatic Number III",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "\"50\"\n\"100\"\n\"0\"\n\"0\"",
+  "exampleTestcaseList": [
+    "\"50\"\n\"100\"",
+    "\"0\"\n\"0\""
+  ],
+  "sampleTestCase": "\"50\"\n\"100\"",
+  "metaData": "{\r\n  \"name\": \"strobogrammaticInRange\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"low\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"high\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "548",
+  "questionFrontendId": "548",
+  "title": "Split Array with Equal Sum",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[1,2,1,2,1,2,1]\n[1,2,1,2,1,2,1,2]",
+  "exampleTestcaseList": [
+    "[1,2,1,2,1,2,1]",
+    "[1,2,1,2,1,2,1,2]"
+  ],
+  "sampleTestCase": "[1,2,1,2,1,2,1]",
+  "metaData": "{\r\n  \"name\": \"splitArray\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n",
+  "codeSnippets": null,
+  "hints": []
+}
