@@ -1,0 +1,16 @@
+{
+  "questionId": "161",
+  "questionFrontendId": "161",
+  "title": "One Edit Distance",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"ab\"\n\"acb\"\n\"\"\n\"\"",
+  "exampleTestcaseList": [
+    "\"ab\"\n\"acb\"",
+    "\"\"\n\"\""
+  ],
+  "sampleTestCase": "\"ab\"\n\"acb\"",
+  "metaData": "{\r\n  \"name\": \"isOneEditDistance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"t\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "340",
+  "questionFrontendId": "340",
+  "title": "Longest Substring with At Most K Distinct Characters",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"eceba\"\n2\n\"aa\"\n1",
+  "exampleTestcaseList": [
+    "\"eceba\"\n2",
+    "\"aa\"\n1"
+  ],
+  "sampleTestCase": "\"eceba\"\n2",
+  "metaData": "{\r\n  \"name\": \"lengthOfLongestSubstringKDistinct\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,17 @@
+{
+  "questionId": "339",
+  "questionFrontendId": "339",
+  "title": "Nested List Weight Sum",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[[1,1],2,[1,1]]\n[1,[4,[6]]]\n[0]",
+  "exampleTestcaseList": [
+    "[[1,1],2,[1,1]]",
+    "[1,[4,[6]]]",
+    "[0]"
+  ],
+  "sampleTestCase": "[[1,1],2,[1,1]]",
+  "metaData": "{\n  \"name\": \"depthSum\",\n  \"params\": [\n    {\n      \"name\": \"nestedList\",\n      \"type\": \"list<NestedInteger>\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": false\n}",
+  "codeSnippets": null,
+  "hints": []
+}

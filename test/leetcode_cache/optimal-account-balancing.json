@@ -1,0 +1,16 @@
+{
+  "questionId": "465",
+  "questionFrontendId": "465",
+  "title": "Optimal Account Balancing",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[[0,1,10],[2,0,5]]\n[[0,1,10],[1,0,1],[1,2,5],[2,0,5]]",
+  "exampleTestcaseList": [
+    "[[0,1,10],[2,0,5]]",
+    "[[0,1,10],[1,0,1],[1,2,5],[2,0,5]]"
+  ],
+  "sampleTestCase": "[[0,1,10],[2,0,5]]",
+  "metaData": "{\r\n  \"name\": \"minTransfers\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"transactions\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

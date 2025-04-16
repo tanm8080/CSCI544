@@ -1,0 +1,16 @@
+{
+  "questionId": "305",
+  "questionFrontendId": "305",
+  "title": "Number of Islands II",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "3\n3\n[[0,0],[0,1],[1,2],[2,1]]\n1\n1\n[[0,0]]",
+  "exampleTestcaseList": [
+    "3\n3\n[[0,0],[0,1],[1,2],[2,1]]",
+    "1\n1\n[[0,0]]"
+  ],
+  "sampleTestCase": "3\n3\n[[0,0],[0,1],[1,2],[2,1]]",
+  "metaData": "{\r\n  \"name\": \"numIslands2\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"m\",\r\n      \"type\": \"integer\",\r\n      \"dealloc\": false\r\n    },\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\",\r\n      \"dealloc\": false\r\n    },\r\n    {\r\n      \"name\": \"positions\",\r\n      \"type\": \"integer[][]\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\",\r\n    \"dealloc\": true\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

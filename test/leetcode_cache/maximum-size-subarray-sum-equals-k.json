@@ -1,0 +1,20 @@
+{
+  "questionId": "325",
+  "questionFrontendId": "325",
+  "title": "Maximum Size Subarray Sum Equals k",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[1,-1,5,-2,3]\n3\n[-2,-1,2,1]\n1",
+  "exampleTestcaseList": [
+    "[1,-1,5,-2,3]\n3",
+    "[-2,-1,2,1]\n1"
+  ],
+  "sampleTestCase": "[1,-1,5,-2,3]\n3",
+  "metaData": "{\r\n  \"name\": \"maxSubArrayLen\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": [
+    "Compute the prefix sum array where psum[i] is the sum of all the elements from <i>0</i> to <i>i</i>.",
+    "At each index <i>i</i>, the sum of the prefix is psum[i], so we are searching for the index x where psum[x] = psum[i] - k.\r\nThe subarray [x + 1, i] will be of sum k.",
+    "Use a hashmap to get the index x efficiently or to determine that it does not exist."
+  ]
+}

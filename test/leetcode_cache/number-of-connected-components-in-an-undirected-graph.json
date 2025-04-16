@@ -1,0 +1,16 @@
+{
+  "questionId": "323",
+  "questionFrontendId": "323",
+  "title": "Number of Connected Components in an Undirected Graph",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "5\n[[0,1],[1,2],[3,4]]\n5\n[[0,1],[1,2],[2,3],[3,4]]",
+  "exampleTestcaseList": [
+    "5\n[[0,1],[1,2],[3,4]]",
+    "5\n[[0,1],[1,2],[2,3],[3,4]]"
+  ],
+  "sampleTestCase": "5\n[[0,1],[1,2],[3,4]]",
+  "metaData": "{\r\n  \"name\": \"countComponents\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"edges\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

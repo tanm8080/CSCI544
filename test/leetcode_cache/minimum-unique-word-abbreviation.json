@@ -1,0 +1,16 @@
+{
+  "questionId": "411",
+  "questionFrontendId": "411",
+  "title": "Minimum Unique Word Abbreviation",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "\"apple\"\n[\"blade\"]\n\"apple\"\n[\"blade\",\"plain\",\"amber\"]",
+  "exampleTestcaseList": [
+    "\"apple\"\n[\"blade\"]",
+    "\"apple\"\n[\"blade\",\"plain\",\"amber\"]"
+  ],
+  "sampleTestCase": "\"apple\"\n[\"blade\"]",
+  "metaData": "{\n  \"name\": \"minAbbreviation\",\n  \"params\": [\n    {\n        \"name\": \"target\",\n        \"type\": \"string\"\n    },\n    {\n        \"name\": \"dictionary\",\n        \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

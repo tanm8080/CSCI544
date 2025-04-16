@@ -1,0 +1,16 @@
+{
+  "questionId": "252",
+  "questionFrontendId": "252",
+  "title": "Meeting Rooms",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "[[0,30],[5,10],[15,20]]\n[[7,10],[2,4]]",
+  "exampleTestcaseList": [
+    "[[0,30],[5,10],[15,20]]",
+    "[[7,10],[2,4]]"
+  ],
+  "sampleTestCase": "[[0,30],[5,10],[15,20]]",
+  "metaData": "{\r\n  \"name\": \"canAttendMeetings\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"intervals\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}
