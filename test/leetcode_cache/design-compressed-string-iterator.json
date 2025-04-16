@@ -1,0 +1,15 @@
+{
+  "questionId": "604",
+  "questionFrontendId": "604",
+  "title": "Design Compressed String Iterator",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "[\"StringIterator\",\"next\",\"next\",\"next\",\"next\",\"next\",\"next\",\"hasNext\",\"next\",\"hasNext\"]\n[[\"L1e2t1C1o1d1e1\"],[],[],[],[],[],[],[],[],[]]",
+  "exampleTestcaseList": [
+    "[\"StringIterator\",\"next\",\"next\",\"next\",\"next\",\"next\",\"next\",\"hasNext\",\"next\",\"hasNext\"]\n[[\"L1e2t1C1o1d1e1\"],[],[],[],[],[],[],[],[],[]]"
+  ],
+  "sampleTestCase": "[\"StringIterator\",\"next\",\"next\",\"next\",\"next\",\"next\",\"next\",\"hasNext\",\"next\",\"hasNext\"]\n[[\"L1e2t1C1o1d1e1\"],[],[],[],[],[],[],[],[],[]]",
+  "metaData": "{\r\n    \"classname\": \"StringIterator\",\r\n    \"maxbytesperline\": 200000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n            \"type\": \"string\",\r\n            \"name\": \"compressedString\"\r\n            }\r\n        ]\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"next\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"character\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"hasNext\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

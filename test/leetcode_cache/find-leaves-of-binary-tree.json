@@ -1,0 +1,16 @@
+{
+  "questionId": "366",
+  "questionFrontendId": "366",
+  "title": "Find Leaves of Binary Tree",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[1,2,3,4,5]\n[1]",
+  "exampleTestcaseList": [
+    "[1,2,3,4,5]",
+    "[1]"
+  ],
+  "sampleTestCase": "[1,2,3,4,5]",
+  "metaData": "{\n  \"name\": \"findLeaves\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<list<integer>>\",\n    \"dealloc\": true\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

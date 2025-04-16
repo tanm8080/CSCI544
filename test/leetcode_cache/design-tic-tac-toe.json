@@ -1,0 +1,18 @@
+{
+  "questionId": "348",
+  "questionFrontendId": "348",
+  "title": "Design Tic-Tac-Toe",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"TicTacToe\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3],[0,0,1],[0,2,2],[2,2,1],[1,1,2],[2,0,1],[1,0,2],[2,1,1]]",
+  "exampleTestcaseList": [
+    "[\"TicTacToe\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3],[0,0,1],[0,2,2],[2,2,1],[1,1,2],[2,0,1],[1,0,2],[2,1,1]]"
+  ],
+  "sampleTestCase": "[\"TicTacToe\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3],[0,0,1],[0,2,2],[2,2,1],[1,1,2],[2,0,1],[1,0,2],[2,1,1]]",
+  "metaData": "{\n  \"classname\": \"TicTacToe\",\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"integer\",\n        \"name\": \"n\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"row\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"col\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"player\"\n        }\n      ],\n      \"name\": \"move\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true,\n  \"manual\": true\n}",
+  "codeSnippets": null,
+  "hints": [
+    "Could you trade extra space such that <code>move()</code> operation can be done in O(1)?",
+    "You need two arrays: int rows[n], int cols[n], plus two variables: diagonal, anti_diagonal."
+  ]
+}

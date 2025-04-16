@@ -1,0 +1,15 @@
+{
+  "questionId": "571",
+  "questionFrontendId": "571",
+  "title": "Find Median Given Frequency of Numbers",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "{\"headers\": {\"Numbers\": [\"num\", \"frequency\"]}, \"rows\": {\"Numbers\": [[0, 7], [1, 1], [2, 3], [3, 1]]}}",
+  "exampleTestcaseList": [
+    "{\"headers\": {\"Numbers\": [\"num\", \"frequency\"]}, \"rows\": {\"Numbers\": [[0, 7], [1, 1], [2, 3], [3, 1]]}}"
+  ],
+  "sampleTestCase": "{\"headers\": {\"Numbers\": [\"num\", \"frequency\"]}, \"rows\": {\"Numbers\": [[0, 7], [1, 1], [2, 3], [3, 1]]}}",
+  "metaData": "{\"mysql\": [\"Create table If Not Exists Numbers (num int, frequency int)\"], \"mssql\": [\"Create table Numbers (num int, frequency int)\"], \"oraclesql\": [\"Create table Numbers (num int, frequency int)\"], \"database\": true, \"name\": \"median_frequency\", \"pythondata\": [\"Numbers = pd.DataFrame([], columns=['num', 'frequency']).astype({'num':'Int64', 'frequency':'Int64'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Numbers (num int, frequency int)\"], \"database_schema\": {\"Numbers\": {\"num\": \"INT\", \"frequency\": \"INT\"}}}",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "469",
+  "questionFrontendId": "469",
+  "title": "Convex Polygon",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[[0,0],[0,5],[5,5],[5,0]]\n[[0,0],[0,10],[10,10],[10,0],[5,5]]",
+  "exampleTestcaseList": [
+    "[[0,0],[0,5],[5,5],[5,0]]",
+    "[[0,0],[0,10],[10,10],[10,0],[5,5]]"
+  ],
+  "sampleTestCase": "[[0,0],[0,5],[5,5],[5,0]]",
+  "metaData": "{\r\n  \"name\": \"isConvex\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"points\",\r\n      \"type\": \"list<list<integer>>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "484",
+  "questionFrontendId": "484",
+  "title": "Find Permutation",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"I\"\n\"DI\"",
+  "exampleTestcaseList": [
+    "\"I\"",
+    "\"DI\""
+  ],
+  "sampleTestCase": "\"I\"",
+  "metaData": "{\r\n  \"name\": \"findPermutation\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}\r\n",
+  "codeSnippets": null,
+  "hints": []
+}

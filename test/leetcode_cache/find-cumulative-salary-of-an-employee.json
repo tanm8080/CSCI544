@@ -1,0 +1,19 @@
+{
+  "questionId": "579",
+  "questionFrontendId": "579",
+  "title": "Find Cumulative Salary of an Employee",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "{\"headers\":{\"Employee\":[\"id\",\"month\",\"salary\"]},\"rows\":{\"Employee\":[[1,1,20],[2,1,20],[1,2,30],[2,2,30],[3,2,40],[1,3,40],[3,3,60],[1,4,60],[3,4,70],[1,7,90],[1,8,90]]}}",
+  "exampleTestcaseList": [
+    "{\"headers\":{\"Employee\":[\"id\",\"month\",\"salary\"]},\"rows\":{\"Employee\":[[1,1,20],[2,1,20],[1,2,30],[2,2,30],[3,2,40],[1,3,40],[3,3,60],[1,4,60],[3,4,70],[1,7,90],[1,8,90]]}}"
+  ],
+  "sampleTestCase": "{\"headers\":{\"Employee\":[\"id\",\"month\",\"salary\"]},\"rows\":{\"Employee\":[[1,1,20],[2,1,20],[1,2,30],[2,2,30],[3,2,40],[1,3,40],[3,3,60],[1,4,60],[3,4,70],[1,7,90],[1,8,90]]}}",
+  "metaData": "{\"mysql\": [\"Create table If Not Exists Employee (id int, month int, salary int)\"], \"mssql\": [\"Create table Employee (id int, month int, salary int)\"], \"oraclesql\": [\"Create table Employee (id int, month int, salary int)\"], \"database\": true, \"name\": \"cumulative_salary\", \"pythondata\": [\"Employee = pd.DataFrame([], columns=['id', 'month', 'salary']).astype({'id':'Int64', 'month':'Int64', 'salary':'Int64'})\\n\"], \"postgresql\": [\"\\nCreate table If Not Exists Employee (id int, month int, salary int)\"], \"database_schema\": {\"Employee\": {\"id\": \"INT\", \"month\": \"INT\", \"salary\": \"INT\"}}}",
+  "codeSnippets": null,
+  "hints": [
+    "Seem hard at first glance? Try to divide this problem into some sub-problems. \r\nThink about how to calculate the cumulative sum of one employee, how to get the cumulative sum for many employees, and how to except the most recent month of the result.",
+    "Use the technique of self-join if you have only one table but to write a complex query.",
+    "Still remember how to use the function `sum` and `max`?"
+  ]
+}

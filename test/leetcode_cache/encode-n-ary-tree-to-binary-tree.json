@@ -1,0 +1,17 @@
+{
+  "questionId": "771",
+  "questionFrontendId": "431",
+  "title": "Encode N-ary Tree to Binary Tree",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[1,null,3,2,4,null,5,6]\n[1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]\n[]",
+  "exampleTestcaseList": [
+    "[1,null,3,2,4,null,5,6]",
+    "[1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]",
+    "[]"
+  ],
+  "sampleTestCase": "[1,null,3,2,4,null,5,6]",
+  "metaData": "{\n  \"name\": \"CodecDriver\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"python3\",\n    \"javascript\",\n    \"golang\",\n    \"kotlin\",\n    \"ruby\",\n    \"scala\",\n    \"php\",\n    \"swift\",\n    \"typescript\"\n  ],\n  \"manual\": true, \"typescriptCustomType\" : \"class _Node {\\n    val: number\\n    children: _Node[]\\n    \\n    constructor(v: number) {\\n        this.val = v;\\n        this.children = [];\\n    }\\n}\\n\"\n\n}",
+  "codeSnippets": null,
+  "hints": []
+}

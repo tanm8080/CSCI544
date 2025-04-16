@@ -1,0 +1,17 @@
+{
+  "questionId": "254",
+  "questionFrontendId": "254",
+  "title": "Factor Combinations",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "1\n12\n37",
+  "exampleTestcaseList": [
+    "1",
+    "12",
+    "37"
+  ],
+  "sampleTestCase": "1",
+  "metaData": "{\r\n  \"name\": \"getFactors\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

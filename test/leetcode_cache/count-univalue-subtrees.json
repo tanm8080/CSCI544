@@ -1,0 +1,17 @@
+{
+  "questionId": "250",
+  "questionFrontendId": "250",
+  "title": "Count Univalue Subtrees",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[5,1,5,5,5,null,5]\n[]\n[5,5,5,5,5,null,5]",
+  "exampleTestcaseList": [
+    "[5,1,5,5,5,null,5]",
+    "[]",
+    "[5,5,5,5,5,null,5]"
+  ],
+  "sampleTestCase": "[5,1,5,5,5,null,5]",
+  "metaData": "{\r\n  \"name\": \"countUnivalSubtrees\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

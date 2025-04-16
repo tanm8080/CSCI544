@@ -1,0 +1,23 @@
+{
+  "questionId": "251",
+  "questionFrontendId": "251",
+  "title": "Flatten 2D Vector",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"Vector2D\",\"next\",\"next\",\"next\",\"hasNext\",\"hasNext\",\"next\",\"hasNext\"]\n[[[[1,2],[3],[4]]],[],[],[],[],[],[],[]]",
+  "exampleTestcaseList": [
+    "[\"Vector2D\",\"next\",\"next\",\"next\",\"hasNext\",\"hasNext\",\"next\",\"hasNext\"]\n[[[[1,2],[3],[4]]],[],[],[],[],[],[],[]]"
+  ],
+  "sampleTestCase": "[\"Vector2D\",\"next\",\"next\",\"next\",\"hasNext\",\"hasNext\",\"next\",\"hasNext\"]\n[[[[1,2],[3],[4]]],[],[],[],[],[],[],[]]",
+  "metaData": "{\n  \"classname\": \"Vector2D\",\n  \"maxbytesperline\": 200000,\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"integer[][]\",\n        \"name\": \"vec\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"name\": \"next\",\n      \"params\": [],\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    },\n    {\n      \"name\": \"hasNext\",\n      \"params\": [],\n      \"return\": {\n        \"type\": \"boolean\"\n      }\n    }\n  ],\n  \"systemdesign\": true,\n  \"params\": [\n    {\n      \"name\": \"inputs\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"inputs\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\",\n    \"dealloc\": true\n  }\n}",
+  "codeSnippets": null,
+  "hints": [
+    "How many variables do you need to keep track?",
+    "Two variables is all you need. Try with <code>x</code> and <code>y</code>.",
+    "Beware of empty rows. It could be the first few rows.",
+    "To write correct code, think about the <a href=\"https://en.wikipedia.org/wiki/Invariant_(computer_science)\" target=\"_blank\">invariant</a> to maintain. What is it?",
+    "The invariant is <code>x</code> and <code>y</code> must always point to a valid point in the 2d vector. Should you maintain your invariant <i>ahead of time</i> or <i>right when you need it</i>?",
+    "Not sure? Think about how you would implement <code>hasNext()</code>. Which is more complex?",
+    "Common logic in two different places should be refactored into a common method."
+  ]
+}

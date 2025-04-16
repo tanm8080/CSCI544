@@ -1,0 +1,17 @@
+{
+  "questionId": "471",
+  "questionFrontendId": "471",
+  "title": "Encode String with Shortest Length",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "\"aaa\"\n\"aaaaa\"\n\"aaaaaaaaaa\"",
+  "exampleTestcaseList": [
+    "\"aaa\"",
+    "\"aaaaa\"",
+    "\"aaaaaaaaaa\""
+  ],
+  "sampleTestCase": "\"aaa\"",
+  "metaData": "{\r\n  \"name\": \"encode\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}
