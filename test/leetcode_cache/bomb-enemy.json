@@ -1,0 +1,16 @@
+{
+  "questionId": "361",
+  "questionFrontendId": "361",
+  "title": "Bomb Enemy",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[[\"0\",\"E\",\"0\",\"0\"],[\"E\",\"0\",\"W\",\"E\"],[\"0\",\"E\",\"0\",\"0\"]]\n[[\"W\",\"W\",\"W\"],[\"0\",\"0\",\"0\"],[\"E\",\"E\",\"E\"]]",
+  "exampleTestcaseList": [
+    "[[\"0\",\"E\",\"0\",\"0\"],[\"E\",\"0\",\"W\",\"E\"],[\"0\",\"E\",\"0\",\"0\"]]",
+    "[[\"W\",\"W\",\"W\"],[\"0\",\"0\",\"0\"],[\"E\",\"E\",\"E\"]]"
+  ],
+  "sampleTestCase": "[[\"0\",\"E\",\"0\",\"0\"],[\"E\",\"0\",\"W\",\"E\"],[\"0\",\"E\",\"0\",\"0\"]]",
+  "metaData": "{\r\n  \"name\": \"maxKilledEnemies\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"character[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

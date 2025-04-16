@@ -1,0 +1,17 @@
+{
+  "questionId": "156",
+  "questionFrontendId": "156",
+  "title": "Binary Tree Upside Down",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[1,2,3,4,5]\n[]\n[1]",
+  "exampleTestcaseList": [
+    "[1,2,3,4,5]",
+    "[]",
+    "[1]"
+  ],
+  "sampleTestCase": "[1,2,3,4,5]",
+  "metaData": "{\n  \"name\": \"upsideDownBinaryTree\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\",\n      \"dealloc\": false\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\",\n    \"dealloc\": true\n  },\n  \"manual\": false\n}",
+  "codeSnippets": null,
+  "hints": []
+}

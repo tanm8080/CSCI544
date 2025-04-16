@@ -1,0 +1,17 @@
+{
+  "questionId": "536",
+  "questionFrontendId": "536",
+  "title": "Construct Binary Tree from String",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"4(2(3)(1))(6(5))\"\n\"4(2(3)(1))(6(5)(7))\"\n\"-4(2(3)(1))(6(5)(7))\"",
+  "exampleTestcaseList": [
+    "\"4(2(3)(1))(6(5))\"",
+    "\"4(2(3)(1))(6(5)(7))\"",
+    "\"-4(2(3)(1))(6(5)(7))\""
+  ],
+  "sampleTestCase": "\"4(2(3)(1))(6(5))\"",
+  "metaData": "{\r\n  \"name\": \"str2tree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\",\r\n    \"dealloc\": true\r\n  }\r\n}\r\n",
+  "codeSnippets": null,
+  "hints": []
+}

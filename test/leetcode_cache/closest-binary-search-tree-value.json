@@ -1,0 +1,16 @@
+{
+  "questionId": "270",
+  "questionFrontendId": "270",
+  "title": "Closest Binary Search Tree Value",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "[4,2,5,1,3]\n3.714286\n[1]\n4.428571",
+  "exampleTestcaseList": [
+    "[4,2,5,1,3]\n3.714286",
+    "[1]\n4.428571"
+  ],
+  "sampleTestCase": "[4,2,5,1,3]\n3.714286",
+  "metaData": "{\r\n  \"name\": \"closestValue\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"double\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

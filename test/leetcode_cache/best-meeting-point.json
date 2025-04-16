@@ -1,0 +1,18 @@
+{
+  "questionId": "296",
+  "questionFrontendId": "296",
+  "title": "Best Meeting Point",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[[1,0,0,0,1],[0,0,0,0,0],[0,0,1,0,0]]\n[[1,1]]",
+  "exampleTestcaseList": [
+    "[[1,0,0,0,1],[0,0,0,0,0],[0,0,1,0,0]]",
+    "[[1,1]]"
+  ],
+  "sampleTestCase": "[[1,0,0,0,1],[0,0,0,0,0],[0,0,1,0,0]]",
+  "metaData": "{\r\n  \"name\": \"minTotalDistance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": [
+    "Try to solve it in one dimension first. How can this solution apply to the two dimension case?"
+  ]
+}

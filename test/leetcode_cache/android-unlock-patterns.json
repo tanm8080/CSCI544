@@ -1,0 +1,16 @@
+{
+  "questionId": "351",
+  "questionFrontendId": "351",
+  "title": "Android Unlock Patterns",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "1\n1\n1\n2",
+  "exampleTestcaseList": [
+    "1\n1",
+    "1\n2"
+  ],
+  "sampleTestCase": "1\n1",
+  "metaData": "{\r\n  \"name\": \"numberOfPatterns\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"m\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

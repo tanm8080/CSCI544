@@ -1,0 +1,16 @@
+{
+  "questionId": "616",
+  "questionFrontendId": "616",
+  "title": "Add Bold Tag in String",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"abcxyz123\"\n[\"abc\",\"123\"]\n\"aaabbb\"\n[\"aa\",\"b\"]",
+  "exampleTestcaseList": [
+    "\"abcxyz123\"\n[\"abc\",\"123\"]",
+    "\"aaabbb\"\n[\"aa\",\"b\"]"
+  ],
+  "sampleTestCase": "\"abcxyz123\"\n[\"abc\",\"123\"]",
+  "metaData": "{\n  \"name\": \"addBoldTag\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"words\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

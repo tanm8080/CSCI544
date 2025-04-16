@@ -1,0 +1,16 @@
+{
+  "questionId": "545",
+  "questionFrontendId": "545",
+  "title": "Boundary of Binary Tree",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[1,null,2,3,4]\n[1,2,3,4,5,6,null,null,null,7,8,9,10]",
+  "exampleTestcaseList": [
+    "[1,null,2,3,4]",
+    "[1,2,3,4,5,6,null,null,null,7,8,9,10]"
+  ],
+  "sampleTestCase": "[1,null,2,3,4]",
+  "metaData": "{\r\n  \"name\": \"boundaryOfBinaryTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}\r\n",
+  "codeSnippets": null,
+  "hints": []
+}

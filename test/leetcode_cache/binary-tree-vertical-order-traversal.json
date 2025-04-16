@@ -1,0 +1,22 @@
+{
+  "questionId": "314",
+  "questionFrontendId": "314",
+  "title": "Binary Tree Vertical Order Traversal",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[3,9,20,null,null,15,7]\n[3,9,8,4,0,1,7]\n[1,2,3,4,10,9,11,null,5,null,null,null,null,null,null,null,6]",
+  "exampleTestcaseList": [
+    "[3,9,20,null,null,15,7]",
+    "[3,9,8,4,0,1,7]",
+    "[1,2,3,4,10,9,11,null,5,null,null,null,null,null,null,null,6]"
+  ],
+  "sampleTestCase": "[3,9,20,null,null,15,7]",
+  "metaData": "{\r\n  \"name\": \"verticalOrder\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"dealloc\": true\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": [
+    "Do BFS from the root. Let the root be at column 0. In the BFS, keep in the queue the node and its column.",
+    "When you traverse a node, store its value in the column index. For example, the root's value should be stored at index 0.",
+    "If the node has a left node, it column should be col - 1. Similarly, if the node has a right node, its column should be col + 1.",
+    "At the end, check the minimum and maximum col and output their values."
+  ]
+}
