@@ -1,0 +1,16 @@
+{
+  "questionId": "158",
+  "questionFrontendId": "158",
+  "title": "Read N Characters Given read4 II - Call Multiple Times",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "\"abc\"\n[1,2,1]\n\"abc\"\n[4,1]",
+  "exampleTestcaseList": [
+    "\"abc\"\n[1,2,1]",
+    "\"abc\"\n[4,1]"
+  ],
+  "sampleTestCase": "\"abc\"\n[1,2,1]",
+  "metaData": "{\n  \"name\": \"read\",\n  \"params\": [\n    {\n      \"name\": \"file\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"queries\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\",\n    \"dealloc\": true\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"c\",\n    \"csharp\",\n    \"javascript\",\n    \"ruby\",\n    \"swift\",\n    \"golang\",\n    \"python3\",\n    \"scala\",\n    \"kotlin\",\n    \"php\",\n    \"typescript\"\n  ]\n}",
+  "codeSnippets": null,
+  "hints": []
+}

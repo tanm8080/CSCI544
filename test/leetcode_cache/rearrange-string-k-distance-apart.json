@@ -1,0 +1,17 @@
+{
+  "questionId": "358",
+  "questionFrontendId": "358",
+  "title": "Rearrange String k Distance Apart",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "\"aabbcc\"\n3\n\"aaabc\"\n3\n\"aaadbbcc\"\n2",
+  "exampleTestcaseList": [
+    "\"aabbcc\"\n3",
+    "\"aaabc\"\n3",
+    "\"aaadbbcc\"\n2"
+  ],
+  "sampleTestCase": "\"aabbcc\"\n3",
+  "metaData": "{ \r\n  \"name\": \"rearrangeString\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

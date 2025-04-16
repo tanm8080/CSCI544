@@ -1,0 +1,16 @@
+{
+  "questionId": "369",
+  "questionFrontendId": "369",
+  "title": "Plus One Linked List",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[1,2,3]\n[0]",
+  "exampleTestcaseList": [
+    "[1,2,3]",
+    "[0]"
+  ],
+  "sampleTestCase": "[1,2,3]",
+  "metaData": "{\r\n  \"name\": \"plusOne\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\",\r\n    \"dealloc\": true\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

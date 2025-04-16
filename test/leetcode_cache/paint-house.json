@@ -1,0 +1,16 @@
+{
+  "questionId": "256",
+  "questionFrontendId": "256",
+  "title": "Paint House",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[[17,2,17],[16,16,5],[14,3,19]]\n[[7,6,2]]",
+  "exampleTestcaseList": [
+    "[[17,2,17],[16,16,5],[14,3,19]]",
+    "[[7,6,2]]"
+  ],
+  "sampleTestCase": "[[17,2,17],[16,16,5],[14,3,19]]",
+  "metaData": "{\r\n  \"name\": \"minCost\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"costs\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

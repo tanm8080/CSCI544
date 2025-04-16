@@ -1,0 +1,15 @@
+{
+  "questionId": "308",
+  "questionFrontendId": "308",
+  "title": "Range Sum Query 2D - Mutable",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"NumMatrix\",\"sumRegion\",\"update\",\"sumRegion\"]\n[[[[3,0,1,4,2],[5,6,3,2,1],[1,2,0,1,5],[4,1,0,1,7],[1,0,3,0,5]]],[2,1,4,3],[3,2,2],[2,1,4,3]]",
+  "exampleTestcaseList": [
+    "[\"NumMatrix\",\"sumRegion\",\"update\",\"sumRegion\"]\n[[[[3,0,1,4,2],[5,6,3,2,1],[1,2,0,1,5],[4,1,0,1,7],[1,0,3,0,5]]],[2,1,4,3],[3,2,2],[2,1,4,3]]"
+  ],
+  "sampleTestCase": "[\"NumMatrix\",\"sumRegion\",\"update\",\"sumRegion\"]\n[[[[3,0,1,4,2],[5,6,3,2,1],[1,2,0,1,5],[4,1,0,1,7],[1,0,3,0,5]]],[2,1,4,3],[3,2,2],[2,1,4,3]]",
+  "metaData": "{\r\n    \"classname\": \"NumMatrix\",\r\n    \"maxbytesperline\": 115000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n                \"type\": \"integer[][]\",\r\n                \"name\": \"matrix\"\r\n            },\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"matrixRowSize\",\r\n                \"lang\": \"c\",\r\n                \"value\": \"size_1\"\r\n            },\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"matrixColSize\",\r\n                \"lang\": \"c\",\r\n                \"value\": \"col_size_1\"\r\n            }\r\n        ]\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"update\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"row\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"col\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"val\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"sumRegion\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"row1\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"col1\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"row2\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"col2\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

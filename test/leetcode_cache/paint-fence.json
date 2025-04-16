@@ -1,0 +1,17 @@
+{
+  "questionId": "276",
+  "questionFrontendId": "276",
+  "title": "Paint Fence",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "3\n2\n1\n1\n7\n2",
+  "exampleTestcaseList": [
+    "3\n2",
+    "1\n1",
+    "7\n2"
+  ],
+  "sampleTestCase": "3\n2",
+  "metaData": "{\r\n  \"name\": \"numWays\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

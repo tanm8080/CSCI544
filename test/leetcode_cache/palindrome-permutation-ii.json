@@ -1,0 +1,19 @@
+{
+  "questionId": "267",
+  "questionFrontendId": "267",
+  "title": "Palindrome Permutation II",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"aabb\"\n\"abc\"",
+  "exampleTestcaseList": [
+    "\"aabb\"",
+    "\"abc\""
+  ],
+  "sampleTestCase": "\"aabb\"",
+  "metaData": "{\r\n  \"name\": \"generatePalindromes\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": [
+    "If a palindromic permutation exists, we just need to generate the first half of the string.",
+    "To generate all distinct permutations of a (half of) string, use a similar approach from: <a href=\"/problems/permutations-ii\">Permutations II</a> or <a href=\"/problems/next-permutation\">Next Permutation</a>."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "questionId": "157",
+  "questionFrontendId": "157",
+  "title": "Read N Characters Given Read4",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "\"abc\"\n4\n\"abcde\"\n5\n\"abcdABCD1234\"\n12",
+  "exampleTestcaseList": [
+    "\"abc\"\n4",
+    "\"abcde\"\n5",
+    "\"abcdABCD1234\"\n12"
+  ],
+  "sampleTestCase": "\"abc\"\n4",
+  "metaData": "{\n  \"name\": \"read\",\n  \"params\": [\n    {\n      \"name\": \"file\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"manual\": true\n}",
+  "codeSnippets": null,
+  "hints": []
+}
