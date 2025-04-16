@@ -1,2 +1,1 @@
-# CSCI544
-Class Project
+# 544
