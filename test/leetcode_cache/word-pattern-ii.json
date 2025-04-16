@@ -1,0 +1,17 @@
+{
+  "questionId": "291",
+  "questionFrontendId": "291",
+  "title": "Word Pattern II",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"abab\"\n\"redblueredblue\"\n\"aaaa\"\n\"asdasdasdasd\"\n\"aabb\"\n\"xyzabcxzyabc\"",
+  "exampleTestcaseList": [
+    "\"abab\"\n\"redblueredblue\"",
+    "\"aaaa\"\n\"asdasdasdasd\"",
+    "\"aabb\"\n\"xyzabcxzyabc\""
+  ],
+  "sampleTestCase": "\"abab\"\n\"redblueredblue\"",
+  "metaData": "{\n  \"name\": \"wordPatternMatch\",\n  \"params\": [\n    {\n      \"name\": \"pattern\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

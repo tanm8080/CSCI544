@@ -1,0 +1,17 @@
+{
+  "questionId": "439",
+  "questionFrontendId": "439",
+  "title": "Ternary Expression Parser",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "\"T?2:3\"\n\"F?1:T?4:5\"\n\"T?T?F:5:3\"",
+  "exampleTestcaseList": [
+    "\"T?2:3\"",
+    "\"F?1:T?4:5\"",
+    "\"T?T?F:5:3\""
+  ],
+  "sampleTestCase": "\"T?2:3\"",
+  "metaData": "{ \r\n  \"name\": \"parseTernary\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"expression\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

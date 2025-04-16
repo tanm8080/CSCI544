@@ -1,0 +1,16 @@
+{
+  "questionId": "280",
+  "questionFrontendId": "280",
+  "title": "Wiggle Sort",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[3,5,2,1,6,4]\n[6,6,5,6,3,8]",
+  "exampleTestcaseList": [
+    "[3,5,2,1,6,4]",
+    "[6,6,5,6,3,8]"
+  ],
+  "sampleTestCase": "[3,5,2,1,6,4]",
+  "metaData": "{\r\n  \"name\": \"wiggleSort\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"void\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,17 @@
+{
+  "questionId": "281",
+  "questionFrontendId": "281",
+  "title": "Zigzag Iterator",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[1,2]\n[3,4,5,6]\n[1]\n[]\n[]\n[1]",
+  "exampleTestcaseList": [
+    "[1,2]\n[3,4,5,6]",
+    "[1]\n[]",
+    "[]\n[1]"
+  ],
+  "sampleTestCase": "[1,2]\n[3,4,5,6]",
+  "metaData": "{\n  \"name\": \"ZigzagIterator\",\n  \"params\": [\n    {\n      \"name\": \"v1\",\n      \"type\": \"list<integer>\"\n    },\n    {\n      \"name\": \"v2\",\n      \"type\": \"list<integer>\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<integer>\",\n    \"dealloc\": true\n  },\n  \"manual\": true\n}",
+  "codeSnippets": null,
+  "hints": []
+}

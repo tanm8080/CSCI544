@@ -1,0 +1,15 @@
+{
+  "questionId": "574",
+  "questionFrontendId": "574",
+  "title": "Winning Candidate",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "{\"headers\":{\"Candidate\":[\"id\",\"name\"],\"Vote\":[\"id\",\"candidateId\"]},\"rows\":{\"Candidate\":[[1,\"A\"],[2,\"B\"],[3,\"C\"],[4,\"D\"],[5,\"E\"]],\"Vote\":[[1,2],[2,4],[3,3],[4,2],[5,5]]}}",
+  "exampleTestcaseList": [
+    "{\"headers\":{\"Candidate\":[\"id\",\"name\"],\"Vote\":[\"id\",\"candidateId\"]},\"rows\":{\"Candidate\":[[1,\"A\"],[2,\"B\"],[3,\"C\"],[4,\"D\"],[5,\"E\"]],\"Vote\":[[1,2],[2,4],[3,3],[4,2],[5,5]]}}"
+  ],
+  "sampleTestCase": "{\"headers\":{\"Candidate\":[\"id\",\"name\"],\"Vote\":[\"id\",\"candidateId\"]},\"rows\":{\"Candidate\":[[1,\"A\"],[2,\"B\"],[3,\"C\"],[4,\"D\"],[5,\"E\"]],\"Vote\":[[1,2],[2,4],[3,3],[4,2],[5,5]]}}",
+  "metaData": "{\"mysql\": [\"Create table If Not Exists Candidate (id int, name varchar(255))\", \"Create table If Not Exists Vote (id int, candidateId int)\"], \"mssql\": [\"Create table Candidate (id int, name varchar(255))\", \"Create table Vote (id int, candidateId int)\"], \"oraclesql\": [\"Create table Candidate (id int, name varchar(255))\", \"Create table Vote (id int, candidateId int)\"], \"database\": true, \"name\": \"winning_candidate\", \"pythondata\": [\"Candidate = pd.DataFrame([], columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})\", \"Vote = pd.DataFrame([], columns=['id', 'candidateId']).astype({'id':'Int64', 'candidateId':'Int64'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Candidate (id int, name varchar(255))\\n\", \"Create table If Not Exists Vote (id int, candidateId int)\"], \"database_schema\": {\"Candidate\": {\"id\": \"INT\", \"name\": \"VARCHAR(255)\"}, \"Vote\": {\"id\": \"INT\", \"candidateId\": \"INT\"}}}",
+  "codeSnippets": null,
+  "hints": []
+}

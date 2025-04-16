@@ -1,0 +1,17 @@
+{
+  "questionId": "422",
+  "questionFrontendId": "422",
+  "title": "Valid Word Square",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "[\"abcd\",\"bnrt\",\"crmy\",\"dtye\"]\n[\"abcd\",\"bnrt\",\"crm\",\"dt\"]\n[\"ball\",\"area\",\"read\",\"lady\"]",
+  "exampleTestcaseList": [
+    "[\"abcd\",\"bnrt\",\"crmy\",\"dtye\"]",
+    "[\"abcd\",\"bnrt\",\"crm\",\"dt\"]",
+    "[\"ball\",\"area\",\"read\",\"lady\"]"
+  ],
+  "sampleTestCase": "[\"abcd\",\"bnrt\",\"crmy\",\"dtye\"]",
+  "metaData": "{\r\n  \"name\": \"validWordSquare\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"list<string>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

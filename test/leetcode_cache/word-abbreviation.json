@@ -1,0 +1,16 @@
+{
+  "questionId": "527",
+  "questionFrontendId": "527",
+  "title": "Word Abbreviation",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[\"like\",\"god\",\"internal\",\"me\",\"internet\",\"interval\",\"intension\",\"face\",\"intrusion\"]\n[\"aa\",\"aaa\"]",
+  "exampleTestcaseList": [
+    "[\"like\",\"god\",\"internal\",\"me\",\"internet\",\"interval\",\"intension\",\"face\",\"intrusion\"]",
+    "[\"aa\",\"aaa\"]"
+  ],
+  "sampleTestCase": "[\"like\",\"god\",\"internal\",\"me\",\"internet\",\"interval\",\"intension\",\"face\",\"intrusion\"]",
+  "metaData": "{\n  \"name\": \"wordsAbbreviation\",\n  \"params\": [\n    {\n      \"name\": \"words\",\n      \"type\": \"list<string>\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\"\n  }\n}",
+  "codeSnippets": null,
+  "hints": []
+}

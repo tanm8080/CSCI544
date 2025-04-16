@@ -1,0 +1,16 @@
+{
+  "questionId": "408",
+  "questionFrontendId": "408",
+  "title": "Valid Word Abbreviation",
+  "content": null,
+  "difficulty": "Easy",
+  "exampleTestcases": "\"internationalization\"\n\"i12iz4n\"\n\"apple\"\n\"a2e\"",
+  "exampleTestcaseList": [
+    "\"internationalization\"\n\"i12iz4n\"",
+    "\"apple\"\n\"a2e\""
+  ],
+  "sampleTestCase": "\"internationalization\"\n\"i12iz4n\"",
+  "metaData": "{ \r\n  \"name\": \"validWordAbbreviation\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"word\",\r\n      \"type\": \"string\"\r\n    },\r\n    { \r\n      \"name\": \"abbr\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

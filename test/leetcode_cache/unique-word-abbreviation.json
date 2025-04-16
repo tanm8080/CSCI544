@@ -1,0 +1,15 @@
+{
+  "questionId": "288",
+  "questionFrontendId": "288",
+  "title": "Unique Word Abbreviation",
+  "content": null,
+  "difficulty": "Medium",
+  "exampleTestcases": "[\"ValidWordAbbr\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\"]\n[[[\"deer\",\"door\",\"cake\",\"card\"]],[\"dear\"],[\"cart\"],[\"cane\"],[\"make\"],[\"cake\"]]",
+  "exampleTestcaseList": [
+    "[\"ValidWordAbbr\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\"]\n[[[\"deer\",\"door\",\"cake\",\"card\"]],[\"dear\"],[\"cart\"],[\"cane\"],[\"make\"],[\"cake\"]]"
+  ],
+  "sampleTestCase": "[\"ValidWordAbbr\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\"]\n[[[\"deer\",\"door\",\"cake\",\"card\"]],[\"dear\"],[\"cart\"],[\"cane\"],[\"make\"],[\"cake\"]]",
+  "metaData": "{\r\n  \"classname\": \"ValidWordAbbr\",\r\n  \"maxbytesperline\": 470000,\r\n  \"constructor\": {\r\n      \"params\": [\r\n        {\r\n            \"type\": \"string[]\",\r\n            \"name\": \"dictionary\"\r\n        },\r\n        {\r\n            \"type\": \"integer\",\r\n            \"name\": \"dictionarySize\",\r\n            \"lang\": \"c\",\r\n            \"value\": \"size_1\"\r\n        }\r\n      ]\r\n  },\r\n  \"methods\": [\r\n      { \"name\" : \"isUnique\",\r\n        \"params\": [\r\n            {\r\n                \"type\": \"string\",\r\n                \"name\": \"word\"\r\n            }\r\n        ],\r\n        \"return\": {\r\n            \"type\": \"boolean\"\r\n        }\r\n      }\r\n  ],\r\n  \"systemdesign\": true,\r\n  \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "425",
+  "questionFrontendId": "425",
+  "title": "Word Squares",
+  "content": null,
+  "difficulty": "Hard",
+  "exampleTestcases": "[\"area\",\"lead\",\"wall\",\"lady\",\"ball\"]\n[\"abat\",\"baba\",\"atan\",\"atal\"]",
+  "exampleTestcaseList": [
+    "[\"area\",\"lead\",\"wall\",\"lady\",\"ball\"]",
+    "[\"abat\",\"baba\",\"atan\",\"atal\"]"
+  ],
+  "sampleTestCase": "[\"area\",\"lead\",\"wall\",\"lady\",\"ball\"]",
+  "metaData": "{\r\n  \"name\": \"wordSquares\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<string>>\"\r\n  }\r\n}",
+  "codeSnippets": null,
+  "hints": []
+}
